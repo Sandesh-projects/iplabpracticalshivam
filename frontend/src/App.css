@@ -1,0 +1,85 @@
+.container {
+  max-width: 600px;  
+  margin: 0 auto;    
+  padding: 20px;
+  background-color: white;  
+  border-radius: 15px;  /* More rounded edges */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Deeper shadow for a 3D effect */
+}
+
+.item-form {
+  margin-bottom: 20px;  
+  border-bottom: 1px solid #ced4da;  
+  padding-bottom: 15px;  
+}
+
+.input-group {
+  margin-bottom: 15px;  
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.input {
+  border: 1px solid #ced4da;
+  border-radius: 8px;  /* Rounded edges for input fields */
+  padding: 10px;
+  width: 100%;  
+  transition: box-shadow 0.3s ease;  /* Transition for focus effect */
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  /* Add shadow on focus */
+}
+
+.button, .remove-button {
+  background-color: #007bff;  
+  color: white;
+  border: none;
+  border-radius: 10px;  /* More rounded edges */
+  padding: 12px 20px;  /* Larger padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;  /* Add transform for hover effect */
+  margin-top: 10px;  
+  width: 100%;  
+  font-size: 1.1rem;  /* Increase font size for larger buttons */
+}
+
+.button:hover, .remove-button:hover {
+  background-color: #0056b3;  
+  transform: translateY(-2px);  /* Lift effect on hover */
+}
+
+.remove-button {
+  background-color: #dc3545;  /* Dark red color */
+}
+
+.remove-button:hover {
+  background-color: #c82333;  /* Darker red on hover */
+}
+
+.calculate {
+  background-color: #28a745;  /* Dark green color for calculate button */
+}
+
+.calculate:hover {
+  background-color: #218838;  /* Darker green on hover */
+}
+
+.total-cost {
+  margin-top: 20px;  /* Space above total cost */
+  font-size: 1.5rem;  /* Increase font size for total cost display */
+}
+
+.thank-you {
+  margin-top: 10px;  /* Space above thank you message */
+  font-size: 1.2rem;  /* Size for thank you message */
+  color: #28a745;  /* Green color for thank you message */
+  font-weight: bold;  /* Bold text */
+}
